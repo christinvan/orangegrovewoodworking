@@ -499,4 +499,13 @@ footer {
     .portfolio-grid {
         grid-template-columns: 1fr;
     }
+    /* CUSTOM ORANGE CURSOR */
+body {
+    cursor: url('assets/orange.svg') 12 12, auto;
+}
+
+a, button {
+    cursor: url('assets/orange.svg') 12 12, pointer;
+}
+
 }
